@@ -1,0 +1,33 @@
+<header class="header">
+        <h1 id="logo" class="logo">Create Account</h1>
+<div class="container">
+    <style>  body {
+  background-image: url('/static/images/4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}</style>
+
+  <form action="http://localhost:5000/onsubmit1" method="post">
+        <table id="regtable2">
+            <tr>
+                <td> <input type="text" name="username" placeholder="Enter User Name"  name="username" id="username" placeholder="Enter Your Name" required> </td>
+            </tr>
+            <tr>
+            <td><p id="errorname"></p></td>
+            </tr>
+            <tr>
+                <td> <input type="password" name="password" id="password" placeholder="Enter Your Password" required> </td>
+            </tr>
+            <tr>
+                <td> <input type="email" name="email" id="email" placeholder="Enter Email Id" required > </td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="mobileno" placeholder="Enter Mobile Number" required> </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Register" > </td>
+            </tr>
+        </table>
+    </form>
+</div>
